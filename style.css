@@ -1,0 +1,91 @@
+/* Global styles */
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Card styles */
+.card {
+    background: #14213d;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Image styling */
+.card__images {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card__images img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card__images:hover img {
+    opacity: 0.5;
+}
+
+/* Title */
+.card__title h1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+/* Info text */
+#info {
+    font-size: 0.9rem;
+    color: #a8dadc;
+}
+
+/* Time display */
+.card__time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+.card__time-left span {
+    color: #f4a261;
+}
+
+.card__time-right span {
+    color: #e63946;
+}
+
+/* Creator section */
+.card__creator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.card__creator img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Footer */
+footer {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #a8dadc;
+}
+
+footer a {
+    color: #f4a261;
+    text-decoration: none;
+}
