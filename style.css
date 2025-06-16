@@ -51,8 +51,15 @@ body {
 .card__time {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 0.9rem;
     margin: 10px 0;
+}
+
+.card__time-left, .card__time-right {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Adjust gap as needed */
 }
 
 .card__time-left span {
@@ -60,7 +67,7 @@ body {
 }
 
 .card__time-right span {
-    color: #e63946;
+    color: #e63946; 
 }
 
 /* Creator section */
